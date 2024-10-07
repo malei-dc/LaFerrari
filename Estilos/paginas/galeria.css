@@ -1,0 +1,22 @@
+
+div.galeria {
+  width: 25%;
+  padding: 1% 1%;
+}
+
+div.galeria img:hover {
+  border: 3px solid #1b1b1b;
+  transform: scale(1.05);
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+  border: 3px solid white;
+}
+
+#fila-galeria {
+  display: flex;
+  width: 100%;
+
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: biancaLov;
+    src: url(/Estilos/fuentes/Bianca\ Lovely.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 240, 230);
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    height: 10%;
+    background-color: rgb(220, 45, 45);
+}
+
+nav {
+    font-family: biancaLov;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.botonMenu:hover {
+    color: rgb(255, 233, 150);
+}
+
+.logo {
+    height: 50px;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+footer p a {
+    color: rgb(255, 255, 255);
+}
+
+#shellLogo {
+    background-color: black;
+    padding: 20px 20px;
+    width: 100%;
+
+}

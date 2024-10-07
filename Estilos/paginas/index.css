@@ -1,0 +1,40 @@
+#navegacionConAnimacion {
+    position: relative;
+    display: flex;
+    width: 100%;
+
+}
+
+.imagen-navegacion {
+    position: relative;
+    width: 50%;
+    padding: 2%;
+}
+
+.imagen-navegacion h2 {
+    color: white;
+    position: absolute;
+    padding: 2%;
+    left: 40%;
+    top: 65%;
+    
+}
+
+.imagen-navegacion h6 {
+    color: white;
+    position: absolute;
+    padding: 2%;
+    left: 45%;
+    top: 75%;
+    
+}
+
+.imagen-top {
+    width: 100%;
+    transition: scale 2s ease;
+}
+
+
+.imagen-top:hover{
+    scale: 105%
+}
