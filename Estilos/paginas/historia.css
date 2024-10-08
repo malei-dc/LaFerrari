@@ -1,0 +1,24 @@
+.texto-con-imagen img {
+    width: 50%;
+    padding: 2%;
+}
+
+.video {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+
+}
+
+iframe {
+    width: 75%;
+    height: 500px;
+}
+
+.flotaIzq {
+    float: left;
+}
+
+.flotaDer {
+    float: right;
+}

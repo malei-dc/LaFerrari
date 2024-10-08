@@ -2,17 +2,79 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="Estilos/main.css">
+    <link rel="stylesheet" type="text/css" href="Estilos/paginas/contacto.css">
+    <link rel="icon" href="/Imagenes/logoFerrariPestaña.png">
+    <title>Formulario de contacto | LaFerrari</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="botonMenu" href="ferrariHistoria.html">HISTORIA</a> </li>
+                <li><a class="botonMenu" href="index.html#motores-potentes">MOTORES</a></li>
+                <li><a href="index.html">
+                        <img class="logo" src="/Imagenes/logoFerrari.png" alt="Logo de Ferrari">
+                    </a></li>
+                <li><a class="botonMenu" href="ferrariGaleria.html">GALERIA</a></li>
+                <li><a class="botonMenu" href="ferrariContacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Completar</h1>
-    <p>Información de Contacto | Teléfono: +39 0536 949111 | Email: <a
-            href="mailto:info@ferrari.com">info@ferrari.com</a> </p>
-        
-    <p> Dejame tus datos con el siguiente formulario: <a href="formularioContacto.html">(hacer formulario en formularioContato.html)</a></p>
+    <main>
 
+        <h1 class="titulo">Contactanos
+            <div class="lineaHorizontal"></div>
+        </h1>
+
+        <div class="contactoMainContainer">
+            <div class="elementoDePagContacto">
+                <p>Si tienes alguna duda, comentario o sugerencia, puedes contactarnos y nos comunicaremos contigo lo
+                    antes
+                    posible</p>
+                <img src="/Imagenes/Contacto/contactoMain.png" alt="weeee">
+            </div>
+
+            <div class="elementoDePagContacto">
+                <form action="">
+
+                    <label for="nombreCompleto">Nombre completo*</label><br>
+                    <input type="text" id="nombreCompleto" name="nombreCompleto" value=""><br>
+
+                    <label for="email">Email*</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+
+                    <label for="area">Deseo contactar con el área de*</label><br>
+                    <input type="text" id="area" name="area" value=""><br>
+
+                    <label for="comentario">Comentarios*</label><br>
+                    <input type="text" id="comentario" name="comentario" value=""><br>
+
+                    <input type="checkbox" id="terminos" name="terminos" value="termino aceptado">
+                    <label for="terminos"> He leído y acepto la <a href="ferrariTerminos.html">política de
+                            privacidad</a> </label><br>
+
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Información de Contacto | Teléfono: +39 0536 949111 | Email: <a
+                href="mailto:info@ferrari.com">info@ferrari.com</a> </p>
+        <p>Aviso Legal | Política de Privacidad</p>
+        <p>Tomas Olcese | <a href="#">6to Northfield</a></p>
+
+        <div id="shellLogo">
+            <a href="https://www.shell.com/" target="_blank"> <img src="/Imagenes/logoShell.png"
+                    alt="logo de shell"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

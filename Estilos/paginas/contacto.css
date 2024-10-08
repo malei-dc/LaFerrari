@@ -1,0 +1,26 @@
+.contactoMainContainer {
+    display: flex;
+}
+
+.titulo{
+    position: relative;
+}
+
+.lineaHorizontal {
+    position: absolute;
+    background-color: grey;
+    height: 1px;
+    width: 80%;
+    top: 50%;
+    right: 0;
+}
+
+.elementoDePagContacto {
+    width: 50%;
+    display: block;
+}
+
+.elementoDePagContacto img {
+    width: 100%;
+    opacity: 60%;
+}

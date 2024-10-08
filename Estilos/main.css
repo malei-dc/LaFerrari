@@ -3,26 +3,5 @@
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.texto-con-imagen img {
-    float: right;
-    width: 50%;
-    padding: 2%;
-}
-
-.video {
-    width: 100%;
-    padding: 2%;
-    text-align: center;
-
-}
-
-iframe {
-    width: 75%;
-    height: 500px;
+    margin: 2% 10%;
 }
